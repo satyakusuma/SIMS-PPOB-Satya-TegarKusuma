@@ -1,0 +1,59 @@
+.pembelian-container {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .service-info {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+  }
+  
+  .service-icon {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .total-nominal {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .total-nominal-input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; /* Add padding to the left to make space for the icon */
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .icon-inside-input {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #555;
+    pointer-events: none; /* Ensure the icon does not block input focus */
+  }
+  
+  .bayar-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .bayar-button:hover {
+    background-color: #c82333;
+  }
+  

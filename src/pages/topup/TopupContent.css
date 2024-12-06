@@ -1,0 +1,91 @@
+.topup-container {
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .topup-content {
+    display: flex;
+  
+  }
+  
+  .left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .left-column p { 
+    margin: 5px; 
+    padding: 0; 
+    line-height: 1;  
+}
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .topup-input {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .topup-options {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .topup-button {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .topup-button:hover {
+    background-color: #dc3545;
+  }
+  
+  .topup-submit-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  .topup-submit-button:hover {
+    background-color: #c82333;
+  }
+  
+  .topup-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-icon-left {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+  }

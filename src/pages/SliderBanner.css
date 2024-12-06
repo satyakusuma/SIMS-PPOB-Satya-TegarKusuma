@@ -1,0 +1,26 @@
+.slider-banner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-item {
+    position: relative;
+    text-align: center;
+    padding: 0 10px
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

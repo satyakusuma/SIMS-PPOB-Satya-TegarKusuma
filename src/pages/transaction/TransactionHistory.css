@@ -1,0 +1,53 @@
+.transaction-history {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .transaction-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .transaction-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .transaction-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .transaction-amount {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .transaction-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .transaction-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .show-more-text {
+    color: #dc3545; /* Red color */
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .show-more-text:hover {
+    text-decoration: underline;
+  }
+  
